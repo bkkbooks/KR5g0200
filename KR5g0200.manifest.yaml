@@ -1,0 +1,52 @@
+canonical_identifier: bkk:krp/KR5g0200/v1
+canonical_location: https://kanripo.org/bkk/KR5g0200/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 上清瓊宮靈飛六甲籙
+  identifiers:
+    alt_id:
+    - DZ1391
+  date: '2015-08-29 02:59:53.148042'
+  source:
+    repository: kanripo
+    path: KR5g0200
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    WYG: http://img.kanripo.org/general/skqs/wyg/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+  base_edition: HFL
+  edition:
+    short: bkk
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+editions:
+- short: HFL
+  label: 【正統道藏・涵芬樓版】
+- short: ZTDZ
+  label: 【正統道藏・三家本】
+- short: SJB
+assets:
+  parts:
+  - {seq: 0, filename: KR5g0200_000.yaml, hash: 'sha256:4af2599493b92d864338e584c997bd30e7438f4a65f0afa942b45fcea760e5da'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5g0200_000.markers.yaml, hash: 'sha256:118c57aa680e3639578cf674b52ca78be4dea951a10148c4eebcd6e7c90b2cb7'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5g0200_HFL_000-001a
+    span:
+    - body
+    - 0
+    - 1848
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:a3ef0d0d5cbc3ac7e1ed537a83b80ff2979b37688ba3d5161b4f9b8994a6db2b
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
